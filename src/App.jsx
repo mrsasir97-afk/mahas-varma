@@ -456,8 +456,9 @@ export default function App() {
         )}
       </nav>
 
-      {/* RENDER VIEW CONDITIONALLY */}
-      {currentView === 'reviews' ? (
+      <main>
+        {/* RENDER VIEW CONDITIONALLY */}
+        {currentView === 'reviews' ? (
         /* DEDICATED GOOGLE REVIEWS & RATINGS PAGE */
         <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto space-y-10">
           
@@ -584,14 +585,10 @@ export default function App() {
                 </div>
 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-slate-900 leading-[1.15] tracking-tight">
-                  Varmakalai & Spine Care
-                  <br />
-                  <span className="gold-gradient-text">in Salem</span>
-                </h1>
-
-                <p className="text-lg sm:text-xl font-semibold text-emerald-900">
                   Mahas Varma & Spine Care
-                </p>
+                  <br />
+                  <span className="gold-gradient-text">Varmakalai Therapy in Salem</span>
+                </h1>
 
                 <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-xl">
                   Experience traditional Tamil Varmakalai therapy and personalized spine care at Mahas Varma & Spine Care in Salem, with treatment approaches designed to support mobility, relaxation, comfort, and overall well-being.
@@ -843,7 +840,7 @@ export default function App() {
 
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {services.map((svc, idx) => (
-                  <motion.div 
+                  <motion.article 
                     key={idx}
                     whileHover={{ y: -6 }}
                     className="bg-white p-6 rounded-3xl shadow-sm border border-emerald-100 flex flex-col justify-between hover:shadow-xl transition duration-300"
@@ -882,7 +879,7 @@ export default function App() {
                       <span>Book {svc.title}</span>
                       <ChevronRight className="w-4 h-4" />
                     </button>
-                  </motion.div>
+                  </motion.article>
                 ))}
               </div>
             </div>
@@ -1078,7 +1075,8 @@ export default function App() {
             </div>
           </section>
         </>
-      )}
+        )}
+      </main>
 
       {/* FOOTER */}
       <footer className="bg-[#021d17] text-slate-400 py-12 px-4 border-t border-emerald-950">
