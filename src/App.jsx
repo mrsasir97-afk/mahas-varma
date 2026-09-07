@@ -157,6 +157,7 @@ export default function App() {
     img7: "/7.jpg",
     img8: "/8.jpg",
     img9: "/9.jpg",
+    img10: "/10.jpg",
     photo1: "/1.jpeg",
     photo2: "/2.jpeg",
     photo3: "/3.jpeg",
@@ -181,93 +182,93 @@ export default function App() {
     {
       title: "Cervical & Neck Pain",
       subtitle: "Spine & Neck Care",
-      desc: "Specialized Varma manipulation targeting C3-C7 nerve compression, stiffness, and chronic cervical disc prolapse.",
+      desc: "Traditional Varma therapy techniques focused on neck stiffness, cervical discomfort, and mobility support.",
       image: images.cervicalNeckPain,
       benefits: ["Nerve pressure release", "Restores neck mobility", "Relieves shoulder stiffness", "Reduces radiating pain"]
     },
     {
       title: "L4–L5–S1 Back Pain",
       subtitle: "Spine & Disc Care",
-      desc: "Root-cause relief for lower back disc bulges, nerve pinching, and lumbar spine stiffness through natural bone setting.",
+      desc: "Traditional therapy approaches for lower back discomfort, lumbar stiffness, and mobility support.",
       image: images.l4l5s1BackPain,
-      benefits: ["Disc prolapse recovery", "Lower back stabilization", "Eliminates numbness in legs", "Non-surgical realignment"]
+      benefits: ["Supports lower back mobility", "Lower back stabilization", "Supports comfortable movement", "Non-surgical therapy approach"]
     },
     {
       title: "Sciatica Relief",
       subtitle: "Nerve Entrapment Therapy",
       desc: "Targeted Varma point therapy releasing sciatic nerve entrapment, shooting leg pain, and walking discomfort.",
       image: images.sciaticaRelief,
-      benefits: ["Sciatic nerve decompression", "Instant pain reduction", "Improved walking stride", "Muscle spasm relief"]
+      benefits: ["Targeted pressure-point therapy", "Supports pain management", "Supports walking comfort", "Muscle relaxation"]
     },
     {
       title: "Whole Spine Pain & Stiffness",
       subtitle: "Full Spinal Alignment",
-      desc: "Comprehensive spinal alignment & muscle unlocking to restore natural posture, spinal flexibility, and vertebral balance.",
+      desc: "Traditional spine-focused therapy supporting posture, flexibility, and comfortable movement.",
       image: images.img10 || "/10.jpg",
-      benefits: ["Postural realignment", "Spinal mobility boost", "Vertebral tension release", "Long-term stiffness relief"]
+      benefits: ["Posture and mobility support", "Spinal flexibility support", "Muscle tension relief", "Comfort-focused care"]
     },
     {
       title: "Migraine & Headache",
       subtitle: "Cranial Nerve Relief",
-      desc: "Nadi nerve pressure points release to cure chronic headaches, stress-induced migraines, and cranial vascular tension.",
+      desc: "Traditional pressure-point therapy focused on head and neck tension, stress-related discomfort, and headache support.",
       image: images.migraineHeadache,
       benefits: ["Relieves vascular pressure", "Reduces migraine frequency", "Mental clarity & calm", "Eases sinus tension"]
     },
     {
       title: "Knee Pain Therapy",
       subtitle: "Joint & Muscular Care",
-      desc: "Natural joint lubrication stimulation, cartilage pressure relief, and tendon strengthening via Varmakalai.",
+      desc: "Traditional Varmakalai-based joint therapy focused on knee comfort, mobility, and muscular relaxation.",
       image: images.kneePainTherapy,
       benefits: ["Eases joint friction", "Strengthens knee ligaments", "Reduces swelling & pain", "Restores stair mobility"]
     },
     {
       title: "Heel Pain & Plantar Support",
       subtitle: "Foot & Tendon Relief",
-      desc: "Targeted foot pressure point therapy relieving heel spur pain, calcaneal stiffness, and morning walking discomfort.",
+      desc: "Targeted traditional pressure-point therapy focused on heel discomfort, foot stiffness, and walking comfort.",
       image: images.img8,
       benefits: ["Heel spur pain relief", "Plantar fascia relaxation", "Arch tension reduction", "Comfortable walking"]
     },
     {
       title: "Paralysis & Bell’s Palsy Support",
       subtitle: "Neurological Re-Activation",
-      desc: "Nerve stimulation & muscle re-activation for facial palsy recovery, hemiplegia, and motor nerve rehabilitation.",
+      desc: "Supportive traditional therapy for selected neurological and muscular mobility needs, including facial and motor function support.",
       image: images.img9,
       benefits: ["Facial nerve awakening", "Muscle tone restoration", "Enhanced nerve impulse", "Motor function support"]
     },
     {
       title: "Lymphatic Thokkanam Massage",
       subtitle: "Therapeutic Detoxification",
-      desc: "Therapeutic manual therapy promoting lymph drainage, systemic toxin elimination, and cellular immunity boost.",
+      desc: "Therapeutic manual techniques intended to support comfortable movement, relaxation, and healthy fluid circulation.",
       image: images.img3,
-      benefits: ["Lymphatic fluid flow", "Body toxin removal", "Reduces fluid retention", "Boosts cellular immunity"]
+      benefits: ["Supports fluid circulation", "Relaxation support", "Comfort-focused care", "Personalized treatment"]
     },
     {
       title: "Full-Body Varma Thokkanam Massage",
       subtitle: "Holistic 9-Step Healing",
-      desc: "Holistic 9-step Tamil Siddha physical touch therapy for total body rejuvenation, blood circulation, and deep muscular relief.",
+      desc: "Traditional Tamil Siddha-inspired physical touch therapy focused on relaxation, mobility, and general well-being.",
       image: images.fullBodyThokkanam,
-      benefits: ["108 Varma point stimulation", "Deep physical relaxation", "Eliminates fatigue", "Improves blood circulation"]
+      benefits: ["Traditional Varma point techniques", "Deep physical relaxation", "Supports relaxation and well-being", "Supports circulation"]
     },
     {
       title: "Face & Head Varma Thokkanam",
       subtitle: "Cranial & Facial Rejuvenation",
-      desc: "Relieves deep-seated cranial stress, facial muscle strain, sinus pressure, and enhances natural skin energy and glow.",
+      desc: "Traditional head and face Thokkanam focused on relaxation, facial muscle comfort, and a refreshed feeling.",
       image: images.faceHeadThokkanam,
       benefits: ["Facial nerve relaxation", "Reduces stress & anxiety", "Glow & skin rejuvenation", "Relieves facial tension"]
     },
     {
       title: "Nadi & Head Oil Thokkanam",
       subtitle: "Herbal Oil Therapy",
-      desc: "Medicated herbal oil head & nerve treatment engineered for deep REM sleep, insomnia relief, and anxiety reduction.",
+      desc: "Herbal oil head and traditional Thokkanam therapy focused on relaxation, head comfort, and restful well-being.",
       image: images.img6,
-      benefits: ["Cures chronic insomnia", "Cools brain & nervous system", "Relieves deep stress", "Promotes restful sleep"]
+      benefits: ["Relaxation support", "Cooling and soothing sensation", "Stress-relief support", "Promotes restful routines"]
     },
     {
       title: "Neurological & Muscular Pain",
       subtitle: "Specialized Pain Care",
-      desc: "Customized Varmakalai therapy for complex muscular spasms, fibromyalgia, nerve twitching, and chronic pain conditions.",
+      desc: "Customized Varmakalai therapy for selected muscular discomfort, spasms, nerve-related symptoms, and chronic pain support.",
       image: images.img7,
-      benefits: ["Targeted nerve healing", "Relieves chronic spasms", "Customized therapy plan", "Enhances muscle power"]
+      benefits: ["Targeted therapy approach", "Supports muscle relaxation", "Customized therapy plan", "Supports comfortable movement"]
     }
   ];
 
@@ -275,20 +276,20 @@ export default function App() {
     { icon: <ShieldCheck className="w-6 h-6 text-emerald-800" />, title: "Pain Management", desc: "Targeting root nerve points for long-term relief." },
     { icon: <Activity className="w-6 h-6 text-teal-700" />, title: "Improved Blood Flow", desc: "Stimulating vascular and lymphatic circulation." },
     { icon: <Feather className="w-6 h-6 text-emerald-800" />, title: "Stress Reduction", desc: "Calming nervous system and mental strain." },
-    { icon: <Moon className="w-6 h-6 text-indigo-800" />, title: "Better Sleep Quality", desc: "Promoting deep REM sleep and curing insomnia." },
+    { icon: <Moon className="w-6 h-6 text-indigo-800" />, title: "Better Sleep Quality", desc: "Supporting relaxation and healthy sleep routines." },
     { icon: <Zap className="w-6 h-6 text-amber-600" />, title: "Increased Mobility", desc: "Easing joint stiffness and muscular tightness." },
     { icon: <Smile className="w-6 h-6 text-emerald-800" />, title: "Mental Relaxation", desc: "Releasing trapped emotional and physical tension." },
     { icon: <Sun className="w-6 h-6 text-amber-600" />, title: "Enhanced Energy Levels", desc: "Unblocking vital Varma energy pathways." },
-    { icon: <TrendingUp className="w-6 h-6 text-teal-700" />, title: "Faster Recovery", desc: "Accelerating cellular and tissue healing." }
+    { icon: <TrendingUp className="w-6 h-6 text-teal-700" />, title: "Recovery Support", desc: "Supporting mobility, comfort, and overall well-being." }
   ];
 
   const whyChooseUs = [
-    { title: "Experienced Practitioners", desc: "Certified master therapists with years of clinical expertise in Varmakalai & bone setting." },
-    { title: "Personalized Treatment Plans", desc: "Custom pulse diagnosis & individualized physical therapy schedules." },
-    { title: "Drug-Free Natural Methods", desc: "100% natural, non-surgical body realignments with zero chemical drugs." },
-    { title: "Safe Clinical Environment", desc: "Tranquil, sterile, and private treatment suites for complete comfort." },
-    { title: "Modern Facilities", desc: "Combining ancient Tamil Siddha wisdom with modern clinical standards." },
-    { title: "Trusted Patient Care", desc: "Hundreds of cured patients across Salem, Malaysia, and Tamil Nadu." }
+    { title: "Experienced Practitioners", desc: "Practitioners with experience in Varmakalai, traditional therapy, and spine-focused care." },
+    { title: "Personalized Treatment Plans", desc: "Individualized assessment and therapy plans based on the person’s needs." },
+    { title: "Natural Therapy Approaches", desc: "Traditional, non-invasive therapy approaches tailored to individual needs." },
+    { title: "Safe Clinical Environment", desc: "A calm, private, and comfort-focused treatment environment." },
+    { title: "Modern Facilities", desc: "Combining traditional Tamil healing practices with a modern, organized clinic environment." },
+    { title: "Trusted Patient Care", desc: "Patient-focused care across our Salem and Malaysia locations." }
   ];
 
   const galleryList = [
@@ -324,7 +325,7 @@ export default function App() {
           <div className="flex items-center space-x-3">
             <span className="bg-amber-500 text-slate-950 font-bold px-2.5 py-0.5 rounded text-[10px] uppercase tracking-wider">Luxury Sanctuary</span>
             <span className="text-emerald-200 flex items-center space-x-1.5">
-              <img src={images.logo} alt="Mahas Varma Logo" className="w-5 h-5 rounded-full object-cover border border-amber-400/50" />
+              <img src={images.logo} alt="Mahas Varma & Spine Care logo" className="w-5 h-5 rounded-full object-cover border border-amber-400/50" />
               <span>Mahas Varma & Spine Care • Salem & Agastya Poornalya (Malaysia)</span>
             </span>
           </div>
@@ -361,7 +362,7 @@ export default function App() {
                 whileHover={{ rotate: 5, scale: 1.05 }}
                 className="w-12 h-12 rounded-full overflow-hidden shadow-lg shadow-emerald-900/20 border-2 border-amber-400/60 bg-black flex-shrink-0"
               >
-                <img src={images.logo} alt="Mahas Varma Logo" className="w-full h-full object-cover" />
+                <img src={images.logo} alt="Mahas Varma & Spine Care logo" className="w-full h-full object-cover" />
               </motion.div>
               <div>
                 <span className="text-xl sm:text-2xl font-serif font-extrabold text-slate-900 block leading-tight tracking-tight">
@@ -578,18 +579,22 @@ export default function App() {
                 className="lg:col-span-7 space-y-6"
               >
                 <div className="inline-flex items-center space-x-2.5 px-4 py-1.5 rounded-full bg-white border border-amber-300/60 text-emerald-900 text-xs font-bold shadow-sm">
-                  <img src={images.logo} alt="Mahas Varma Logo" className="w-5 h-5 rounded-full object-cover border border-amber-400" />
+                  <img src={images.logo} alt="Mahas Varma & Spine Care logo" className="w-5 h-5 rounded-full object-cover border border-amber-400" />
                   <span>Mahas Varma & Spine Care Sanctuary</span>
                 </div>
 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-extrabold text-slate-900 leading-[1.15] tracking-tight">
-                  Mahas Varma & Spine <br />
-                  <span className="gold-gradient-text">The Art of Healing,</span> <br />
-                  <span className="text-emerald-900">The Science of Spine</span>
+                  Varmakalai & Spine Care
+                  <br />
+                  <span className="gold-gradient-text">in Salem</span>
                 </h1>
 
+                <p className="text-lg sm:text-xl font-semibold text-emerald-900">
+                  Mahas Varma & Spine Care
+                </p>
+
                 <p className="text-base sm:text-lg text-slate-600 font-normal leading-relaxed max-w-xl">
-                  Experience transformative well-being through ancient Tamil wisdom and advanced Varmakalai & Spine therapies designed for natural pain relief.
+                  Experience traditional Tamil Varmakalai therapy and personalized spine care at Mahas Varma & Spine Care in Salem, with treatment approaches designed to support mobility, relaxation, comfort, and overall well-being.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 pt-2">
@@ -620,7 +625,7 @@ export default function App() {
                     { text: "Certified Practitioners" },
                     { text: "Natural Healing" },
                     { text: "Personalized Plans" },
-                    { text: "100% Drug-Free" }
+                    { text: "Natural Therapy" }
                   ].map((badge, idx) => (
                     <div key={idx} className="bg-white/90 p-3 rounded-2xl border border-emerald-100 shadow-sm text-center text-xs font-bold text-slate-800 flex items-center justify-center space-x-1.5">
                       <CheckCircle2 className="w-4 h-4 text-emerald-700 flex-shrink-0" />
@@ -638,8 +643,8 @@ export default function App() {
               >
                 <div className="p-4 rounded-3xl bg-gradient-to-br from-emerald-100/60 to-amber-100/40 border border-amber-200/50 shadow-2xl relative">
                   <div className="grid grid-cols-2 gap-3 rounded-2xl overflow-hidden">
-                    <img src={images.hero} alt="Varma Care" className="w-full h-80 object-cover rounded-xl shadow hover:scale-105 transition duration-500" />
-                    <img src={images.landmark} alt="Spine Alignment" className="w-full h-80 object-cover rounded-xl shadow hover:scale-105 transition duration-500" />
+                    <img src={images.hero} alt="Varmakalai therapy session at Mahas Varma & Spine Care in Salem" className="w-full h-80 object-cover rounded-xl shadow hover:scale-105 transition duration-500" />
+                    <img src={images.landmark} alt="Mahas Varma & Spine Care Salem clinic" className="w-full h-80 object-cover rounded-xl shadow hover:scale-105 transition duration-500" />
                   </div>
                   <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-md p-4 rounded-2xl shadow-lg border border-amber-300/40 flex items-center space-x-3">
                     <div className="w-10 h-10 rounded-xl gold-badge-icon flex items-center justify-center flex-shrink-0 text-amber-900 font-bold">
@@ -647,7 +652,7 @@ export default function App() {
                     </div>
                     <div>
                       <h4 className="text-slate-900 font-bold text-xs uppercase tracking-wider">Traditional Varma Science</h4>
-                      <p className="text-xs text-slate-500 font-medium">Non-Surgical Bone & Nerve Healing</p>
+                      <p className="text-xs text-slate-500 font-medium">Traditional Non-Invasive Care</p>
                     </div>
                   </div>
                 </div>
@@ -662,19 +667,19 @@ export default function App() {
               {[
                 {
                   title: "Varmakalai Healing",
-                  desc: "Traditional Tamil art, restoring vital energy pathways, treating nerve compression, and reviving body mobility.",
+                  desc: "Traditional Tamil Varmakalai practice focused on pressure-point techniques, relaxation, and mobility support.",
                   icon: <Sparkles className="w-6 h-6 text-amber-700" />,
                   link: "#services"
                 },
                 {
                   title: "Modern Spine Therapy",
-                  desc: "Advanced non-surgical spine care, bone setting, sciatica pressure management, and cervical posture corrections.",
+                  desc: "Spine-focused traditional therapy, mobility support, and care approaches for back, neck, and sciatica discomfort.",
                   icon: <Activity className="w-6 h-6 text-amber-700" />,
                   link: "#services"
                 },
                 {
                   title: "Our Sanctuary",
-                  desc: "Luxury healthcare experience with expert Siddha & Varma practitioners in tranquil Salem and Malaysia centers.",
+                  desc: "A calm care environment with Varmakalai-focused practitioners serving patients in Salem and Malaysia.",
                   icon: <ShieldCheck className="w-6 h-6 text-amber-700" />,
                   link: "#contact"
                 }
@@ -707,8 +712,8 @@ export default function App() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
                 {[
-                  { target: 5.0, suffix: "★", decimals: 1, label: "Google Rating", sub: "23+ Cured Patients Reviews" },
-                  { target: 100, suffix: "%", decimals: 0, label: "Natural & Drug-Free", sub: "Non-Surgical Spine Correction" },
+                  { target: 5.0, suffix: "★", decimals: 1, label: "Google Rating", sub: "23+ Google Reviews" },
+                  { target: 13, suffix: "+", decimals: 0, label: "Therapy Services", sub: "Varmakalai, Spine & Traditional Care" },
                   { target: 108, suffix: "", decimals: 0, label: "Varma Points Mastered", sub: "Traditional Tamil Science" },
                   { target: 2, suffix: "", decimals: 0, label: "Sanctuary Centers", sub: "Salem & Malaysia" }
                 ].map((stat, idx) => (
@@ -744,7 +749,7 @@ export default function App() {
               >
                 <div className="bg-gradient-to-br from-emerald-950 via-emerald-900 to-slate-900 text-white p-8 rounded-3xl border border-amber-400/30 shadow-2xl space-y-6">
                   <div className="flex items-center space-x-4">
-                    <img src={images.logo} alt="P. Elavarasan" className="w-20 h-20 rounded-full object-cover border-2 border-amber-400 shadow-md" />
+                    <img src={images.logo} alt="P. Elavarasan, Founder and Chief Varma Therapist" className="w-20 h-20 rounded-full object-cover border-2 border-amber-400 shadow-md" />
                     <div>
                       <span className="text-[10px] font-bold uppercase tracking-widest text-amber-400 bg-emerald-900/80 px-3 py-1 rounded-full border border-amber-400/30">Master Practitioner</span>
                       <h3 className="text-2xl font-serif font-bold text-white mt-1">P. ELAVARASAN</h3>
@@ -787,7 +792,7 @@ export default function App() {
                 className="lg:col-span-7 space-y-6"
               >
                 <div className="inline-flex items-center space-x-2 bg-emerald-50 px-4 py-2 rounded-full border border-emerald-200 shadow-sm">
-                  <img src={images.logo} alt="Mahas Varma Logo" className="w-5 h-5 rounded-full object-cover border border-amber-400" />
+                  <img src={images.logo} alt="Mahas Varma & Spine Care logo" className="w-5 h-5 rounded-full object-cover border border-amber-400" />
                   <span className="text-xs font-bold uppercase tracking-widest text-emerald-900">
                     About Mahas Varma & Spine Care
                   </span>
@@ -796,15 +801,15 @@ export default function App() {
                   Traditional Varma Therapy & Wellness Centre
                 </h2>
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-                  Led by <strong>P. Elavarasan</strong>, Mahas Varma & Spine Care integrates ancient Tamil Varmakalai healing with Siddha medicine science and natural physical therapies. Located in <strong>Salem and Agastya Poornalya (Malaysia)</strong>, our clinical treatments activate organic self-repair without surgical interventions or chemical drugs.
+                  Led by <strong>P. Elavarasan</strong>, Mahas Varma & Spine Care combines traditional Tamil Varmakalai practices, Siddha-informed approaches, and natural physical therapies. Our centres serve patients in <strong>Salem, Tamil Nadu</strong> and <strong>Kuala Lumpur, Malaysia</strong> with personalized, non-invasive care focused on comfort, mobility, and well-being.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                   {[
                     "Dip. Varmakalai Certified Care",
-                    "Non-Surgical Bone & Spine Adjustment",
+                    "Non-Invasive Spine-Focused Care",
                     "Dip. Siddha Medicine & Science",
-                    "Nerve & Disc Prolapse Relief",
+                    "Nerve & Spine Comfort Support",
                     "Aromatherapy & Herbal Oils",
                     "Stress, Sinus & Cranial Care",
                     "Thai & Pranic Healing Therapies"
@@ -832,7 +837,7 @@ export default function App() {
             <div className="max-w-7xl mx-auto space-y-12">
               <div className="text-center space-y-3 max-w-2xl mx-auto">
                 <span className="text-xs font-bold uppercase tracking-widest text-emerald-900 bg-emerald-100/70 px-3.5 py-1.5 rounded-full">Our Core Offerings</span>
-                <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-slate-900">Services & Treatments</h2>
+                <h2 className="text-3xl sm:text-4xl font-serif font-extrabold text-slate-900">Varmakalai, Spine Care & Traditional Therapy Services</h2>
                 <p className="text-slate-500 text-sm">Displaying premium service cards with specific healing benefits.</p>
               </div>
 
@@ -845,7 +850,7 @@ export default function App() {
                   >
                     <div>
                       <div className="h-52 rounded-2xl overflow-hidden relative mb-5">
-                        <img src={svc.image} alt={svc.title} className="w-full h-full object-cover" />
+                        <img src={svc.image} alt={`${svc.title} at Mahas Varma & Spine Care`} className="w-full h-full object-cover" />
                         <span className="absolute bottom-3 left-3 bg-slate-950/90 text-amber-300 text-[11px] font-bold px-3 py-1 rounded-md">
                           {svc.subtitle}
                         </span>
@@ -1080,7 +1085,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 mb-8 text-xs">
           <div className="space-y-3">
             <div className="flex items-center space-x-3">
-              <img src={images.logo} alt="Mahas Varma Logo" className="w-10 h-10 rounded-full object-cover border border-amber-400/60 shadow-md" />
+              <img src={images.logo} alt="Mahas Varma & Spine Care logo" className="w-10 h-10 rounded-full object-cover border border-amber-400/60 shadow-md" />
               <div>
                 <h4 className="text-amber-300 font-serif font-bold text-sm leading-tight">Mahas Varma & Spine Care</h4>
                 <span className="text-[10px] text-emerald-400/80 font-bold uppercase tracking-widest">Luxury Sanctuary</span>
@@ -1153,7 +1158,7 @@ export default function App() {
 
             <div className="p-6 sm:p-8 space-y-6">
               <div className="text-center space-y-3">
-                <img src={images.logo} alt="Mahas Varma Logo" className="w-16 h-16 rounded-full object-cover border-2 border-amber-400 mx-auto shadow-md" />
+                <img src={images.logo} alt="Mahas Varma & Spine Care logo" className="w-16 h-16 rounded-full object-cover border-2 border-amber-400 mx-auto shadow-md" />
                 <div>
                   <span className="text-xs font-bold uppercase tracking-widest text-emerald-900 bg-emerald-50 px-3.5 py-1 rounded-full border border-emerald-200">Official Slot Booking</span>
                   <h2 className="text-2xl sm:text-3xl font-serif font-extrabold text-slate-900 mt-2">Mahas Varma & Spine Care</h2>
